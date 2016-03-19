@@ -58,6 +58,8 @@ IF(NOT WIN32)
 ENDIF()
 
 
+SET(CMAKE_PREFIX_PATH = "${CMAKE_BINARY_DIR}/build")
+
 SET(FREEGLUT_HEADERS
     include/GL/freeglut.h
     include/GL/freeglut_ext.h

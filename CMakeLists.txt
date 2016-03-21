@@ -32,7 +32,7 @@ set(SO_REV 0)		# if nothing else changed increment this
 # FREEGLUT_BUILD_SHARED_LIBS is already a standard CMake variable, but we need to
 # re-declare it here so it will show up in the GUI.
 # by default, we want to build both
-OPTION(FREEGLUT_BUILD_SHARED_LIBS "Build FreeGLUT shared library." OFF)
+OPTION(FREEGLUT_BUILD_SHARED_LIBS "Build FreeGLUT shared library." ON)
 OPTION(FREEGLUT_BUILD_STATIC_LIBS "Build FreeGLUT static library." ON)
 
 # option for whether warnings and errors should be printed
